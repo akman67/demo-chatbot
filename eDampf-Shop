@@ -1,58 +1,35 @@
-diff --git a/README.md b/README.md
-index 8aba8c04ef720159684ae6e7159b322169769405..5440704126ad5e00e11bd0ad05bee2637e2a6ef5 100644
---- a/README.md
-+++ b/README.md
-@@ -1,2 +1,3 @@
- # demo-chatbot
--Tidio Chatbot Demo für Kunden
-+Tidio Chatbot Demo fuer Kunden
-+Dieses Repository enthaelt eine einfache Landingpage, auf der Sie den Tidio-Chatbot testen koennen.
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
-diff --git a/index.html b/index.html
-index 80024d2ba7c628e8704274fdd9ed925f3e822da5..ae4e115bd8cc662735f38efe8ef14c4c4ae78be3 100644
---- a/index.html
-+++ b/index.html
-@@ -1,35 +1,36 @@
- <!DOCTYPE html>
- <html lang="de">
- <head>
-   <meta charset="UTF-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
--  <title>Tidio Demo – Medicura</title>
-+  <title>Chatbot Landingpage – Medicura</title>
-   <style>
-     body {
-       margin: 0;
-       background-color: #f9f9f9;
-       font-family: sans-serif;
-       text-align: center;
-     }
-     h1 {
-       margin-top: 30px;
-       font-size: 26px;
-     }
-     .screenshot {
-       max-width: 100%;
-       width: 960px;
-       margin: 30px auto;
-       box-shadow: 0 0 20px rgba(0,0,0,0.1);
-       border-radius: 8px;
-     }
-   </style>
- </head>
- <body>
--  <h1>Tidio Chatbot Demo – integriert auf Medicura-Website</h1>
--  <img class="screenshot" src="https://raw.githubusercontent.com/akman67/demo-chatbot/main/medicura_demo.png" alt="Website-Vorschau mit Chatbot" />
-+  <h1>Testen Sie den Medicura Chatbot</h1>
-+  <p>Klicken Sie auf die Chat-Schaltfl&auml;che unten rechts, um den Chatbot auszuprobieren.</p>
-+  <img class="screenshot" src="medicura_demo.png" alt="Website-Vorschau mit Chatbot" />
- 
-   <!-- Tidio Chatbot -->
--  <script src="https://code.tidio.co/jfyoxosok6slt4zr1zmwkbc011huswfr.js" async></script>
-+  <script src="//code.tidio.co/io4fazvj2cywjdhakimohwr59wlimwy7.js" async></script>
- </body>
- </html>
- 
- 
-EOF
-)
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chatbot Landingpage – Medicura</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #f9f9f9;
+      font-family: sans-serif;
+      text-align: center;
+    }
+    h1 {
+      margin-top: 30px;
+      font-size: 26px;
+    }
+    .screenshot {
+      max-width: 100%;
+      width: 960px;
+      margin: 30px auto;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Testen Sie den Medicura Chatbot</h1>
+  <p>Klicken Sie auf die Chat-Schaltfläche unten rechts, um den Chatbot auszuprobieren.</p>
+  <img class="screenshot" src="medicura_demo.png" alt="Website-Vorschau mit Chatbot" />
+
+  <!-- Tidio Chatbot -->
+  <script src="https://code.tidio.co/io4fazvj2cywjdhakimohwr59wlimwy7.js" async></script>
+</body>
+</html>
